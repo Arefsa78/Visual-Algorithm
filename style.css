@@ -1,0 +1,29 @@
+.visual {
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.ds-node {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.ds-node .ds-data {
+    display: flex;
+    justify-content: center;
+}
+
+.ds-node .ds-data div {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.ds-node .ds-children {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
